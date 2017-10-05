@@ -20,7 +20,6 @@ private:
     Format              *instrucFormat;
     const unsigned int  *instruction;
     const int           INSTRUCT;
-//    unsigned int        opcode;
 };
 
 #endif

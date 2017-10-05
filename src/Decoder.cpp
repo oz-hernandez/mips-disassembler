@@ -4,8 +4,6 @@
 
 #include "../include/Decoder.h"
 #include "../include/Format.h"
-#include "../include/RType.h"
-#include "../include/IType.h"
 #include "../include/SimpleFormatFactory.h"
 #include <iostream>
 using std::cout;
