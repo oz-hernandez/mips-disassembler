@@ -5,8 +5,6 @@
 #include "../include/Decoder.h"
 #include "../include/Format.h"
 #include "../include/SimpleFormatFactory.h"
-#include <iostream>
-using std::cout;
 
 Decoder::Decoder(const unsigned int *instruct, const int instructSize) : instruction(instruct), INSTRUCT(instructSize)
 
