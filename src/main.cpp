@@ -2,7 +2,6 @@
 //  Copyright © 2017 OsmaniHernandez. All rights reserved.
 //
 
-#include <iostream>
 #include "../include/Decoder.h"
 
 int main()
