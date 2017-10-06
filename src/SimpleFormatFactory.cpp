@@ -15,7 +15,7 @@ Format* FormatFactory::returnFormat(const unsigned int &instruction)
     if(!opcode)
         return new Rtype(instruction, opcode, FormatFactory::RS_MASK, FormatFactory::RT_MASK,
                          FormatFactory::RD_MASK, FormatFactory::FUNC_MASK );
-    else
-        return new Itype(instruction, opcode, FormatFactory::RS_MASK,
-                         FormatFactory::RT_MASK, FormatFactory::OFFSET_MASK );
+    
+    return new Itype(instruction, opcode, FormatFactory::RS_MASK,
+                     FormatFactory::RT_MASK, FormatFactory::OFFSET_MASK );
 }
