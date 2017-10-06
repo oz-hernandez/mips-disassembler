@@ -2,7 +2,7 @@
 //  Copyright © 2017 OsmaniHernandez. All rights reserved.
 //
 
-#include "../include/Itype.h"
+#include "../include/IType.h"
 #include <iostream>
 
 
